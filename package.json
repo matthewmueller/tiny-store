@@ -1,0 +1,15 @@
+{
+  "name": "tiny-store",
+  "version": "1.0.0",
+  "description": "Tiny immutable store for any value",
+  "keywords": ["store", "immutable"],
+  "author": "Matthew Mueller <mattmuelle@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MatthewMueller/tiny-store.git"
+  },
+  "dependencies": {
+    "component-clone": "0.2.2"
+  },
+  "main": "lib/store"
+}
