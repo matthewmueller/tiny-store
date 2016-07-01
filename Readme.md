@@ -12,6 +12,8 @@ npm install tiny-store
 ## Use
 
 ```js
+let store = require('tiny-store')
+
 // create a fruit
 let data = { fruit: 'apple' }
 apple = store(data)
