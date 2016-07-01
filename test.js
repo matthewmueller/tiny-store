@@ -1,8 +1,10 @@
+'use strict'
+
 let store = require('./')
 
 
 let data = { fruit: 'apple' }
-apple = store(data)
+let apple = store(data)
 
 // try & change FAIL
 console.log(apple()) // { fruit: 'apple' }

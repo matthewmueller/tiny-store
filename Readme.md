@@ -31,6 +31,12 @@ console.log(grape()) // { fruit: 'grape' }
 console.log(apple()) // { fruit: 'apple' }
 ```
 
+## Implementation Notes
+
+This uses a recursive `Object.freeze` under the hood. It's turned off in production (`process.env.NODE_ENV === 'production'`).
+
+If you `use strict` at top of your JS, the script will throw at runtime if you try and make changes like this: `apple().fruit = "pear"`.
+
 ## License
 
 MIT
