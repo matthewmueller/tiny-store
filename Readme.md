@@ -20,7 +20,7 @@ apple = store(data)
 
 // try & change FAIL
 console.log(apple()) // { fruit: 'apple' }
-apple.fruit = 'pear'
+apple().fruit = 'pear'
 console.log(apple()) // { fruit: 'apple' }
 data.fruit = 'orange'
 console.log(apple()) // { fruit: 'apple' }
